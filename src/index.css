@@ -152,12 +152,18 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
+  background-color: rgba(17, 24, 39, 1);
+    ;
+    ;
 }
 
 .autocomplete-item {
   display: flex;
   cursor: pointer;
   flex-direction: column;
+  background-color: rgba(17, 24, 39, 1);
+    ;
+    ;
 }
 
 .autocomplete-item > :not([hidden]) ~ :not([hidden]) {
@@ -170,16 +176,19 @@ body {
   padding-right: 1.5rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+
 }
 
 .autocomplete-item-selected {
   background-color: rgba(31, 41, 55, 1);
 }
 
-.account-body {
+ .account-body {
   display: flex;
   align-items: center;
+
 }
+
 
 .account-body > :not([hidden]) ~ :not([hidden]) {
   margin-right: calc(0.75rem * 0);
@@ -189,6 +198,7 @@ body {
 .account-name {
   font-weight: 600;
   color: rgba(255, 255, 255, 1);
+  
 }
 
 .account-highlighted {
